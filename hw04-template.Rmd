@@ -1,0 +1,67 @@
+---
+title: "Homework #04: Bass Mercury"
+subtitle: "due March 3rd 11:59 PM "
+author: "Your name here"
+date: ""
+output: pdf_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Load Packages and Data
+
+```{r load-packages, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(tidymodels)
+library(viridis)
+``` 
+
+```{r load-data, message=FALSE, warning=FALSE}
+mercury_bass <- read_csv("mercury.csv")
+```
+
+
+# Exercise 1
+
+
+# Exercise 2
+
+```{r ex-2}
+set.seed(2)
+# null_dist <- mercury_bass %>%
+# specify(response = ____) %>%
+# hypothesize(null = "____", __ = ____) %>%
+# generate(reps = __, type = "bootstrap") %>%
+# calculate(stat = "____")
+```
+
+# Exercise 3
+
+```{r ex-3}
+```
+
+# Exercise 4
+
+```{r ex-4}
+```
+
+# Exercise 5
+
+```{r ex-5}
+```
+
+# Exercise 6
+
+```{r ex-6}
+```
+
+# Exercise 7
+
+```{r ex-7}
+```
+
+# Exercise 8
+```{r ex-8}
+```
+
+
